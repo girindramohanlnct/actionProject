@@ -17,8 +17,8 @@ async function sendEmali(endTime, auctionItemInfo) {
       let transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-          user: "girindramohan0@gmail.com",
-          pass: "0000852217",
+          user: "",
+          pass: "",
         },
       });
       Bid.find({ itemName: itemName }, (err, documents) => {
