@@ -41,3 +41,5 @@ For bidding you need to hit the url "localhost:3000/bidding" and you need to pas
 
 Note = email should be register.
 
+To Generate the mail you need to give your gmailid and password in user and pass keyword in scheduleMail.js file. and you have to turn on the less scurity for this gmailid by going this link https://myaccount.google.com/lesssecureapps to send the mail. 
+
